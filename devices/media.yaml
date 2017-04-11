@@ -1,0 +1,12 @@
+- platform: webostv
+  host: 192.168.1.132
+  name: Living room TV
+- platform: cast
+  host: 192.168.1.101
+  name: Google Home
+- platform: cast
+  host: 192.168.1.112
+  name: Chromecast bedroom
+- platform: cast
+  host: 192.168.1.102
+  name: Chromecast living room

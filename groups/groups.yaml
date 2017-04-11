@@ -1,0 +1,46 @@
+stats:
+  name: System statistics
+  view: no
+  entities:
+    - sensor.cpu_use
+    - sensor.disk_use_
+    - sensor.last_boot
+    - sensor.ram_free
+    - sensor.received_wlan0
+    - sensor.sent_wlan0
+
+lights:
+  name: All lights
+  view: no
+  entities:
+    - light.sofa_lamp
+    - light.closet_lamp
+
+livingroom:
+  name: Living room
+  view: no
+  entities:
+    - light.living_room
+    - media_player.living_room_tv
+    - media_player.living_room_home
+    - media_player.chromecast_living_room
+
+bedroom:
+  name: Bed room
+  view: no
+  entities:
+    - media_player.chromecast_bedroom
+
+closet:
+  name: Closet
+  view: no
+  entities:
+    - light.closet
+
+rooms:
+  name: Rooms
+  view: yes
+  entities:
+    - group.livingroom
+    - group.bedroom
+    - group.closet
