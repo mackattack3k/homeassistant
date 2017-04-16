@@ -19,11 +19,12 @@ tts:
     cache: true
     cache_dir: /tmp/tts
     time_memory: 300
+    language: 'se'
 
 logger:
-  default: critical
-  logs:
-    homeassistant.components.device_tracker.nmap_tracker: debug
+  #default: debug
+  #logs:
+    #homeassistant.components.device_tracker.nmap_tracker: debug
 
 # Enables the frontend
 frontend:
