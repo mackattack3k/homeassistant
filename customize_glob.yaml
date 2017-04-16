@@ -11,3 +11,6 @@ light.*:
     pin: true
     off_when_min: true
     report_when_not_changed: false
+
+device_tracker.*:
+  hidden: true

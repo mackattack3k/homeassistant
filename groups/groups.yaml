@@ -37,10 +37,29 @@ closet:
   entities:
     - light.closet
 
-rooms:
-  name: Rooms
+network:
+  name: Network devices
+  view: no
+  entities:
+    - device_tracker.marcussmacbookair
+    - device_tracker.philipshue1921681114
+    - device_tracker.marcussiphone
+    - device_tracker.huawei_p10
+
+livingroomview:
+  name: Livingroom
   view: yes
   entities:
     - group.livingroom
-    - group.bedroom
+
+closetview:
+  name: Closet
+  view: yes
+  entities:
     - group.closet
+
+bedroomview:
+  name: Bedroom
+  view: yes
+  entities:
+    - group.bedroom

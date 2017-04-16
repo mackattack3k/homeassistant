@@ -1,0 +1,72 @@
+
+linksys12590:
+  hide_if_away: false
+  mac: 60:38:E0:D7:5B:B3
+  name: Router
+  picture:
+  track: true
+  vendor: Belkin International Inc.
+
+5b97989e6243687319c5017de1c3a4b2:
+  hide_if_away: false
+  mac: F4:F5:D8:C9:CC:78
+  name: 5b97989e-6243-6873-19c5-017de1c3a4b2
+  picture:
+  track: true
+  vendor: Google, Inc.
+
+raspberrypi3:
+  hide_if_away: false
+  mac: B8:27:EB:48:4B:63
+  name: Raspberry pi3
+  picture:
+  track: true
+  vendor: Raspberry Pi Foundation
+
+philipshue1921681114:
+  hide_if_away: false
+  mac: 00:17:88:49:06:DE
+  name: Philips Hue Bridge
+  picture:
+  track: true
+  vendor: Philips Lighting BV
+
+marcussmacbookair:
+  hide_if_away: false
+  mac: 00:88:65:42:FD:1E
+  name: Macbook Air
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+chromecastultra:
+  hide_if_away: false
+  mac: F4:F5:D8:5F:EA:92
+  name: Chromecast-Ultra
+  picture:
+  track: true
+  vendor: Google, Inc.
+
+d92b7d8ac98fbd864ba53283607ca680:
+  hide_if_away: false
+  mac: F4:F5:D8:65:43:E8
+  name: d92b7d8a-c98f-bd86-4ba5-3283607ca680
+  picture:
+  track: true
+  vendor: Google, Inc.
+
+huawei_p10:
+  hide_if_away: false
+  mac: 14:5F:94:15:C3:DB
+  name: Linnéas P10
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+marcussiphone:
+  hide_if_away: false
+  mac: 00:CD:FE:84:9B:0C
+  name: Marcus iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.

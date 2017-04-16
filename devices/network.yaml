@@ -2,4 +2,4 @@
   hosts: 192.168.1.0/24
   consider_home: 180
   track_new_devices: yes
-  interval_seconds: 60
+  interval_seconds: 30

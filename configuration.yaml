@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Kebab Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 59.2755
-  longitude: 17.902
+  latitude: 59.308447
+  longitude: 18.082513
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 38
   # metric for Metric, imperial for Imperial
@@ -17,9 +17,8 @@ homeassistant:
 tts:
   - platform: google
     cache: true
-    cache_dir: /tmp/tts
+    cache_dir: ./tts
     time_memory: 300
-    language: 'se'
 
 logger:
   #default: debug
@@ -44,6 +43,8 @@ history:
 
 # View all events in a logbook
 logbook:
+
+ios:
 
 group: !include_dir_merge_named groups
 
