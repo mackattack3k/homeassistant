@@ -10,3 +10,13 @@
   - type: network_out
     arg: wlan0
   - type: last_boot
+
+- platform: darksky
+  api_key: 8919ecf9c54c54608d05eee6ab0e4fb4
+  units: si
+  monitored_conditions:
+    - summary
+    - icon
+    - temperature
+    - precip_intensity_max
+    - precip_type

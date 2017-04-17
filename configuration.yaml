@@ -20,7 +20,7 @@ tts:
     cache_dir: ./tts
     time_memory: 300
 
-logger:
+#logger:
   #default: debug
   #logs:
     #homeassistant.components.device_tracker.nmap_tracker: debug
