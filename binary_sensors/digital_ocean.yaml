@@ -1,0 +1,2 @@
+- platform: digital_ocean
+  droplets: 'carlefred.com'
