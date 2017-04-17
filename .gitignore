@@ -12,3 +12,6 @@ tts/
 
 # Restart file from vagrant
 restart
+
+# API keys
+secrets.yaml
