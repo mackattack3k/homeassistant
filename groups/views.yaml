@@ -1,0 +1,32 @@
+default_view:
+    view: yes
+    entities:
+      - group.lights
+      - group.network
+      - group.weather
+
+livingroomview:
+  name: Livingroom
+  view: yes
+  entities:
+    - group.livingroom
+
+closetview:
+  name: Closet
+  view: yes
+  entities:
+    - group.closet
+
+bedroomview:
+  name: Bedroom
+  view: yes
+  entities:
+    - group.bedroom
+
+geekstuff:
+  name: Geek stuff
+  view: yes
+  entities:
+    - group.stats
+    - group.network
+    - group.all_automations
