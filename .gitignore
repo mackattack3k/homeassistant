@@ -1,0 +1,14 @@
+# Folders
+tts/
+
+# Dotfiles
+\.*
+
+# Logs
+*.log
+
+# Database
+*.db
+
+# Restart file from vagrant
+restart
