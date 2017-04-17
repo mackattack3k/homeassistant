@@ -11,6 +11,8 @@
     arg: wlan0
   - type: last_boot
 
+
+# Weather
 - platform: darksky
   api_key: 8919ecf9c54c54608d05eee6ab0e4fb4
   units: si
@@ -20,3 +22,13 @@
     - temperature
     - precip_intensity_max
     - precip_type
+
+# Speedtest
+- platform: speedtest
+  minute:
+    - 0
+    - 30
+  monitored_conditions:
+    - ping
+    - download
+    - upload

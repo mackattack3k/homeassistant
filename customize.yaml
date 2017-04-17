@@ -13,3 +13,20 @@ device_tracker.huawei_p10:
 device_tracker.philipshue1921681114:
   icon: mdi:lightbulb-outline
   hidden: false
+
+binary_sensor.carlefredcom:
+  icon: mdi:server
+  friendly_name: Carlefred.com
+
+# Weather friendly names
+sensor.dark_sky_summary:
+  friendly_name: Summary
+
+sensor.dark_sky_temperature:
+  friendly_name: Temperature
+
+sensor.dark_sky_precip:
+  friendly_name: Precipitation
+
+sensor.dark_sky_daily_max_precip_intensity:
+  friendly_name: Max precipitation

@@ -8,6 +8,9 @@ stats:
     - sensor.ram_free
     - sensor.received_wlan0
     - sensor.sent_wlan0
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.speedtest_ping
 
 lights:
   name: All lights
@@ -45,6 +48,7 @@ network:
     - device_tracker.philipshue1921681114
     - device_tracker.marcussiphone
     - device_tracker.huawei_p10
+    - binary_sensor.carlefredcom
 
 weather:
   name: Weather

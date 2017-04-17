@@ -44,7 +44,10 @@ history:
 # View all events in a logbook
 logbook:
 
-ios:
+#ios:
+
+digital_ocean:
+  access_token: !secret digital_ocean
 
 group: !include_dir_merge_named groups
 
@@ -57,3 +60,5 @@ media_player: !include devices/media.yaml
 device_tracker: !include devices/network.yaml
 
 automation: !include automations.yaml
+
+binary_sensor: !include binary_sensors/digital_ocean.yaml
