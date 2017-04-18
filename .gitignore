@@ -1,5 +1,7 @@
 # Folders
 tts/
+custom_components/
+deps/
 
 # Dotfiles
 \.*
@@ -15,3 +17,6 @@ restart
 
 # API keys
 secrets.yaml
+
+# Push for html notifications
+html5_push_registrations.conf
