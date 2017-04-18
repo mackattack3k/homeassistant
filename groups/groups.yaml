@@ -65,3 +65,11 @@ traffic:
   entities:
     - sensor.skanstull__thorildsplan
     - sensor.skanstull__karbin_klatterhall
+
+stocks:
+  name: Stocks
+  view: no
+  entities:
+    - sensor.fb
+    - sensor.googl
+    - sensor.tsla

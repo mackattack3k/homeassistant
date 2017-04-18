@@ -30,3 +30,9 @@ sensor.dark_sky_precip:
 
 sensor.dark_sky_daily_max_precip_intensity:
   friendly_name: Max precipitation
+
+sensor.skanstull__thorildsplan:
+  icon: mdi:train
+
+sensor.skanstull__karbin_klatterhall:
+  icon: mdi:train

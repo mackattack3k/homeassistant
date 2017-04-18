@@ -46,6 +46,8 @@ logbook:
 
 #ios:
 
+updater:
+
 digital_ocean:
   access_token: !secret digital_ocean
 

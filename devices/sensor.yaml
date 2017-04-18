@@ -59,3 +59,9 @@
   options:
     mode: transit
     units: metric
+
+- platform: yahoo_finance
+  symbols:
+    - FB
+    - GOOGL
+    - TSLA

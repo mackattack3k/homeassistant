@@ -5,6 +5,7 @@ default_view:
       - group.network
       - group.weather
       - group.traffic
+      - group.stocks
 
 livingroomview:
   name: Livingroom

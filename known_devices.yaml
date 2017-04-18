@@ -70,3 +70,11 @@ marcussiphone:
   picture:
   track: true
   vendor: Apple, Inc.
+
+livingroomtv:
+  hide_if_away: false
+  mac: A0:6F:AA:47:99:68
+  name: LivingroomTV
+  picture:
+  track: true
+  vendor: LG Innotek
