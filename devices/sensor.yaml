@@ -14,7 +14,7 @@
 
 # Weather
 - platform: darksky
-  api_key: 8919ecf9c54c54608d05eee6ab0e4fb4
+  api_key: !secret darksky
   units: si
   monitored_conditions:
     - summary
