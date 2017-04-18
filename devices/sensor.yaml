@@ -38,3 +38,24 @@
   server_token: !secret uber
   start_latitude: 59.308447
   start_longitude: 18.082513
+
+
+# Linnéas commute
+- platform: google_travel_time
+  api_key: !secret google
+  name: Skanstull -> Thorildsplan
+  origin: Ringvägen 138, Stockholm
+  destination: Lindhagensplan 70, 112 43 Stockholm
+  options:
+    mode: transit
+    units: metric
+
+# Skanstull to Karbin klätterhall
+- platform: google_travel_time
+  api_key: !secret google
+  name: Skanstull -> Karbin klätterhall
+  origin: Ringvägen 138, Stockholm
+  destination: Västberga allé 60, 126 30 Hägersten
+  options:
+    mode: transit
+    units: metric

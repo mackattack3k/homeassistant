@@ -58,3 +58,10 @@ weather:
     - sensor.dark_sky_temperature
     - sensor.dark_sky_precip
     - sensor.dark_sky_daily_max_precip_intensity
+
+traffic:
+  name: Traffic
+  view: no
+  entities:
+    - sensor.skanstull__thorildsplan
+    - sensor.skanstull__karbin_klatterhall
