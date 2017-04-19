@@ -48,6 +48,9 @@ logbook:
 
 updater:
 
+ifttt:
+  key: !secret iftt
+
 digital_ocean:
   access_token: !secret digital_ocean
 
