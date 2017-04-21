@@ -40,3 +40,4 @@ sensor.skanstull__karbin_klatterhall:
 
 sensor.closet_motion:
   device_class: motion
+  icon: mdi:run

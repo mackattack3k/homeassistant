@@ -31,4 +31,4 @@ geekstuff:
   entities:
     - group.stats
     - group.network
-    - group.all_automations
+    - group.automations

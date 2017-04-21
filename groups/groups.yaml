@@ -74,3 +74,13 @@ stocks:
     - sensor.fb
     - sensor.googl
     - sensor.tsla
+
+automations:
+  name: Automations
+  view: no
+  entities:
+    - automation.1_google_home_night_volume
+    - automation.2_google_home_normal_volume
+    - automation.3_closet_motion_off
+    - automation.4_closet_motion_day
+    - automation.5_closet_motion_night
