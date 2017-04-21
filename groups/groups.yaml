@@ -39,13 +39,14 @@ closet:
   view: no
   entities:
     - light.closet
+    - sensor.closet_motion
 
 network:
   name: Network devices
   view: no
   entities:
     - device_tracker.marcussmacbookair
-    - device_tracker.philipshue1921681114
+    - device_tracker.marcussipad
     - device_tracker.marcussiphone
     - device_tracker.huawei_p10
     - binary_sensor.carlefredcom

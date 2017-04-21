@@ -65,3 +65,10 @@
     - FB
     - GOOGL
     - TSLA
+
+# Closet motion sensor
+- platform: rest
+  resource: http://192.168.1.114/api/K9VXC64UMOXj-IpVTrzZbVyIXxXRd1cuv0CRIOe7/sensors/10
+  value_template: '{{ value_json.state.status }}'
+  scan_interval: 10
+  name: Closet Motion

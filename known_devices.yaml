@@ -78,3 +78,27 @@ livingroomtv:
   picture:
   track: true
   vendor: LG Innotek
+
+android95e2901b9c8f38f1:
+  hide_if_away: false
+  mac: 98:E7:F5:7D:C4:9E
+  name: android-95e2901b9c8f38f1
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+gwb072bf27aea5:
+  hide_if_away: false
+  mac: B0:72:BF:27:AE:A5
+  name: GW-B072BF27AEA5
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+marcussipad:
+  hide_if_away: false
+  mac: 90:8D:6C:2C:9C:FE
+  name: Marcuss-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.

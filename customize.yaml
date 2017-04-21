@@ -16,6 +16,7 @@ device_tracker.philipshue1921681114:
 
 binary_sensor.carlefredcom:
   icon: mdi:server
+  device_class: connectivity
   friendly_name: Carlefred.com
 
 # Weather friendly names
@@ -36,3 +37,6 @@ sensor.skanstull__thorildsplan:
 
 sensor.skanstull__karbin_klatterhall:
   icon: mdi:train
+
+sensor.closet_motion:
+  device_class: motion
