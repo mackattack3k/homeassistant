@@ -18,6 +18,25 @@ lights:
   entities:
     - light.sofa_lamp
     - light.closet_lamp
+    - light.marcus_light
+    - light.linneas_light
+    - group.bedroomceiling
+
+bedroomceiling:
+  name: Bedroom ceiling lights
+  view: no
+  entities:
+    - light.bedroom_1
+    - light.bedroom_2
+    - light.bedroom_3
+
+bedroomlights:
+  name: Bedroom lights
+  view: no
+  entities:
+    - group.bedroomceiling
+    - light.marcus_light
+    - light.linneas_light
 
 livingroom:
   name: Living room
@@ -33,6 +52,11 @@ bedroom:
   view: no
   entities:
     - media_player.chromecast_bedroom
+    - light.bedroom_1
+    - light.bedroom_2
+    - light.bedroom_3
+    - light.marcus_light
+    - light.linneas_light
 
 closet:
   name: Closet

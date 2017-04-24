@@ -25,6 +25,7 @@ bedroomview:
   view: yes
   entities:
     - group.bedroom
+    - group.bedroomlights
 
 geekstuff:
   name: Geek stuff
