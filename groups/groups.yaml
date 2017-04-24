@@ -84,3 +84,9 @@ automations:
     - automation.3_closet_motion_off
     - automation.4_closet_motion_day
     - automation.5_closet_motion_night
+
+spotify:
+  name: Spotify
+  view: no
+  entities:
+    - media_player.spotify

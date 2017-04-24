@@ -10,3 +10,9 @@
 - platform: cast
   host: 192.168.1.102
   name: Chromecast living room
+
+- platform: spotify
+  name: Marcus Spotify
+  client_id: eab25f830ae240e18ce070fa43ffb5d3
+  client_secret: !secret spotify
+
