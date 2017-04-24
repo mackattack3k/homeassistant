@@ -10,6 +10,10 @@ device_tracker.huawei_p10:
   icon: mdi:cellphone-android
   hidden: false
 
+device_tracker.marcussipad:
+  icon: mdi:tablet-ipad
+  hidden: false
+
 device_tracker.philipshue1921681114:
   icon: mdi:lightbulb-outline
   hidden: false
