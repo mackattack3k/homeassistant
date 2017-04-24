@@ -48,15 +48,13 @@ livingroom:
     - media_player.chromecast_living_room
 
 bedroom:
-  name: Bed room
+  name: Bedroom
   view: no
   entities:
     - media_player.chromecast_bedroom
-    - light.bedroom_1
-    - light.bedroom_2
-    - light.bedroom_3
     - light.marcus_light
     - light.linneas_light
+    - group.bedroomceiling
 
 closet:
   name: Closet
