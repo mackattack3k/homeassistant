@@ -45,3 +45,15 @@ sensor.skanstull__karbin_klatterhall:
 sensor.closet_motion:
   device_class: motion
   icon: mdi:run
+
+# Lights for google home
+light.bedroom_1:
+  emulated_hue: true
+light.bedroom_2:
+  emulated_hue: true
+light.bedroom_3:
+  emulated_hue: true
+light.linneas_light:
+  emulated_hue: true
+light.marcus_light:
+  emulated_hue: true

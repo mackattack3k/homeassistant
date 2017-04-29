@@ -63,6 +63,11 @@ tradfri:
   host: 192.168.1.181
   api_key: !secret ikea
 
+emulated_hue:
+  expose_by_default: false
+  host_ip: 192.168.1.150
+  advertise_ip: 192.168.1.150
+
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
