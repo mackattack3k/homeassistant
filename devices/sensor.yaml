@@ -38,6 +38,8 @@
   server_token: !secret uber
   start_latitude: 59.308447
   start_longitude: 18.082513
+  end_latitude: 59.288056
+  end_longitude: 18.011440
 
 
 # Linnéas commute
