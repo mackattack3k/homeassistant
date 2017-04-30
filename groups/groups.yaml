@@ -111,4 +111,4 @@ spotify:
   name: Spotify
   view: no
   entities:
-    - media_player.spotify
+    - media_player.marcus_spotify

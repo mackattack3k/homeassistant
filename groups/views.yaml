@@ -13,6 +13,7 @@ livingroomview:
   view: yes
   entities:
     - group.livingroom
+    - group.spotify
 
 closetview:
   name: Closet
