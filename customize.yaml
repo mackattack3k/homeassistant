@@ -57,3 +57,7 @@ light.linneas_light:
   emulated_hue: true
 light.marcus_light:
   emulated_hue: true
+light.sofa_light:
+  emulated_hue: true
+light.closet_light:
+  emulated_hue: true
