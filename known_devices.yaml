@@ -102,3 +102,11 @@ marcussipad:
   track: true
   vendor: Apple, Inc.
   name: Marcus iPad
+
+android6d86b1f2129d4be4:
+  hide_if_away: false
+  mac: D8:50:E6:85:77:04
+  name: android-6d86b1f2129d4be4
+  picture:
+  track: true
+  vendor: ASUSTek COMPUTER INC.

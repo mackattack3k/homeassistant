@@ -66,7 +66,10 @@ tradfri:
 emulated_hue:
   expose_by_default: false
   host_ip: 192.168.1.150
-  advertise_ip: 192.168.1.150
+  listen_port: 80
+  type: google_home
+  exposed_domains:
+    - light
 
 group: !include_dir_merge_named groups
 
