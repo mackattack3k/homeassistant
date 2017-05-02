@@ -61,3 +61,5 @@ light.sofa_light:
   emulated_hue: true
 light.closet_light:
   emulated_hue: true
+light.hallway_light:
+  emulated_hue: true

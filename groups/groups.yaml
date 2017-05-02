@@ -18,6 +18,7 @@ lights:
   entities:
     - light.sofa_light
     - light.closet_light
+    - light.hallway_light
     - light.marcus_light
     - light.linneas_light
     - group.bedroomceiling
