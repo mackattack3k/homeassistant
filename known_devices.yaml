@@ -110,3 +110,51 @@ android6d86b1f2129d4be4:
   picture:
   track: true
   vendor: ASUSTek COMPUTER INC.
+
+marcussiphone2:
+  hide_if_away: false
+  mac: 70:EC:E4:92:2B:28
+  name: MarcussiPhone2
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+lgwebostv:
+  hide_if_away: false
+  mac: 30:A9:DE:ED:87:8F
+  name: LGwebOSTV
+  picture:
+  track: true
+  vendor: LG Innotek
+
+lajsasiphone2:
+  hide_if_away: false
+  mac: 9C:F4:8E:4B:33:5E
+  name: Lajsas-iPhone-2
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+malur:
+  hide_if_away: false
+  mac: 70:EC:E4:4E:1E:9B
+  name: MaLur
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+jessicasiphone:
+  hide_if_away: false
+  mac: 1C:91:48:16:A6:6F
+  name: Jessicas-iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+iphone:
+  hide_if_away: false
+  mac: 48:74:6E:B2:6E:0A
+  name: iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
