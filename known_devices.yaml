@@ -158,3 +158,21 @@ iphone:
   picture:
   track: true
   vendor: Apple, Inc.
+
+android20751394b5bbe736:
+  hide_if_away: false
+  icon:
+  mac: 94:35:0A:E2:A0:38
+  name: android-20751394b5bbe736
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+dietpi:
+  hide_if_away: false
+  icon:
+  mac: 74:D0:2B:CE:FB:AB
+  name: DietPi
+  picture:
+  track: true
+  vendor: ASUSTek COMPUTER INC.

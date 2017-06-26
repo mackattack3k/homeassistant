@@ -104,12 +104,17 @@ automations:
   entities:
     - automation.1_google_home_night_volume
     - automation.2_google_home_normal_volume
-    - automation.3_closet_motion_off
-    - automation.4_closet_motion_day
-    - automation.5_closet_motion_night
+    - automation.3_lights_off__morning
 
 spotify:
   name: Spotify
   view: no
   entities:
     - media_player.marcus_spotify
+
+people:
+  name: People
+  view: no
+  entities:
+    - device_tracker.marcussiphone
+    - device_tracker.huawei_p10
