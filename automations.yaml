@@ -40,3 +40,14 @@
   action:
     - service: light.turn_off
       entity_id: group.all_lights
+
+- id: set_theme
+  alias: 4. Set theme
+  trigger:
+   platform: homeassistant
+   event: start
+  action:
+   - service: frontend.set_theme
+     data: 
+       name : purple 
+

@@ -20,7 +20,7 @@ lights:
     - light.closet_light
     - light.hallway_light
     - light.marcus_light
-    - light.linneas_light
+    - light.lillys_light
     - group.bedroomceiling
 
 bedroomceiling:
@@ -37,7 +37,7 @@ bedroomlights:
   entities:
     - group.bedroomceiling
     - light.marcus_light
-    - light.linneas_light
+    - light.lillys_light
 
 livingroom:
   name: Living room
@@ -54,7 +54,7 @@ bedroom:
   entities:
     - media_player.chromecast_bedroom
     - light.marcus_light
-    - light.linneas_light
+    - light.lillys_light
     - group.bedroomceiling
 
 closet:
