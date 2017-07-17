@@ -176,3 +176,12 @@ dietpi:
   picture:
   track: true
   vendor: ASUSTek COMPUTER INC.
+
+xboxone:
+  hide_if_away: false
+  icon:
+  mac: 94:9A:A9:C7:94:B8
+  name: XboxOne
+  picture:
+  track: true
+  vendor: Microsoft Corporation

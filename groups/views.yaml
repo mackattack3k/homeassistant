@@ -2,7 +2,6 @@ default_view:
     view: yes
     entities:
       - group.lights
-      - group.network
       - group.weather
       - group.traffic
       - group.stocks

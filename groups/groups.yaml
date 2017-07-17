@@ -65,13 +65,17 @@ closet:
     - sensor.closet_motion
 
 network:
-  name: Network devices
+  name: All network devices
   view: no
   entities:
-    - device_tracker.marcussmacbookair
+    - device_tracker.chromecastultra
+    - device_tracker.dietpi
+    - device_tracker.huawei_p10
     - device_tracker.marcussipad
     - device_tracker.marcussiphone
-    - device_tracker.huawei_p10
+    - device_tracker.marcussmacbookair
+    - device_tracker.raspberrypi3
+    - device_tracker.xboxone
     - binary_sensor.carlefredcom
 
 weather:
