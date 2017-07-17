@@ -27,6 +27,9 @@ tts:
 
 # Enables the frontend
 frontend:
+  themes:
+    purple:
+      primary-color: "#C2185B"
 
 # Enables configuration UI
 config:
