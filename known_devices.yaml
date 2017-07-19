@@ -194,3 +194,30 @@ kebabtop:
   picture:
   track: true
   vendor: Intel Corporate
+
+a345f3251caa4abbaf8886afa2f9de2b:
+  hide_if_away: false
+  icon:
+  mac: 00:00:00:00:01:50
+  name: a345f325-1caa-4abb-af88-86afa2f9de2b
+  picture:
+  track: true
+  vendor: XEROX CORPORATION
+
+d3aec99b3a26482f9913fae76e080343:
+  hide_if_away: false
+  icon:
+  mac: B4:9C:DF:30:4B:45
+  name: d3aec99b-3a26-482f-9913-fae76e080343
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+d92b7d8ac98fbd864ba53283607ca680_2:
+  hide_if_away: false
+  icon:
+  mac: 00:00:00:00:08:00
+  name: d92b7d8a-c98f-bd86-4ba5-3283607ca680
+  picture:
+  track: true
+  vendor: XEROX CORPORATION
