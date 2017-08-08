@@ -221,3 +221,102 @@ d92b7d8ac98fbd864ba53283607ca680_2:
   picture:
   track: true
   vendor: XEROX CORPORATION
+
+iphone_2:
+  hide_if_away: false
+  icon:
+  mac: 40:33:1A:63:52:6F
+  name: iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+43c3bd642fa55362afd984508f3d09ed:
+  hide_if_away: false
+  icon:
+  mac: 00:CD:FE:84:00:00
+  name: 43c3bd64-2fa5-5362-afd9-84508f3d09ed
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+markbook:
+  hide_if_away: false
+  icon:
+  mac: AC:BC:32:A8:8E:67
+  name: MarkBook
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+android:
+  hide_if_away: false
+  icon:
+  mac: 00:00:00:00:00:00
+  name: Android
+  picture:
+  track: true
+  vendor: XEROX CORPORATION
+
+f6cdfc2cbd6c4d3f9b480b7533be5cee:
+  hide_if_away: false
+  icon:
+  mac: 1C:91:48:16:01:50
+  name: f6cdfc2c-bd6c-4d3f-9b48-0b7533be5cee
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+6021bb8f760c4837a1b40dd8a8a9f22a:
+  hide_if_away: false
+  icon:
+  mac: 94:9A:A9:C7:94:B6
+  name: 6021bb8f-760c-4837-a1b4-0dd8a8a9f22a
+  picture:
+  track: true
+  vendor: Microsoft Corporation
+
+30c7816c5b9c42c99f1c1d59a2223e15:
+  hide_if_away: false
+  icon:
+  mac: 48:4B:AA:4E:80:E7
+  name: 30c7816c-5b9c-42c9-9f1c-1d59a2223e15
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+43c3bd642fa55362afd984508f3d09ed_2:
+  hide_if_away: false
+  icon:
+  mac: 70:E4:22:1D:12:4B
+  name: 43c3bd64-2fa5-5362-afd9-84508f3d09ed
+  picture:
+  track: true
+  vendor: Cisco Systems, Inc
+
+260f946508d04e888e98cde70ce6b263:
+  hide_if_away: false
+  icon:
+  mac: 10:41:7F:A4:2C:39
+  name: 260f9465-08d0-4e88-8e98-cde70ce6b263
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+desktopt5eevdt:
+  hide_if_away: false
+  icon:
+  mac: 8C:89:A5:C2:01:86
+  name: DESKTOP-T5EEVDT
+  picture:
+  track: true
+  vendor: unknown
+
+hassbian:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:1D:1E:36
+  name: hassbian
+  picture:
+  track: true
+  vendor: unknown
