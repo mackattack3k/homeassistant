@@ -6,9 +6,9 @@
   - type: memory_use
   - type: processor_use
   - type: network_in
-    arg: wlan0
+    arg: eth0
   - type: network_out
-    arg: wlan0
+    arg: eth0
   - type: last_boot
 
 
