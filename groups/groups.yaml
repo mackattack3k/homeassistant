@@ -109,6 +109,7 @@ automations:
     - automation.1_google_home_night_volume
     - automation.2_google_home_normal_volume
     - automation.3_lights_off__morning
+    - automation.4_set_theme
 
 spotify:
   name: Spotify
