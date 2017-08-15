@@ -43,13 +43,9 @@ frontend:
 config:
 
 http:
-  # Uncomment this to add a password (recommended!)
   api_password: !secret api
-  # Uncomment this if you are using SSL or running in Docker etc
   base_url: !secret url
   ip_ban_enabled: false
-  #ssl_certificate: !secret sslcert
-  #ssl_key: !secret sslkey
 
 # Enables support for tracking state changes over time.
 history:
@@ -57,7 +53,9 @@ history:
 # View all events in a logbook
 logbook:
 
-updater:
+recorder:
+  purge_days: 14
+  db_url: !secret databaseurl
 
 ifttt:
   key: !secret iftt
