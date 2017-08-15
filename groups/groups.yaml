@@ -82,10 +82,10 @@ weather:
   name: Weather
   view: no
   entities:
-    - sensor.dark_sky_summary
-    - sensor.dark_sky_temperature
-    - sensor.dark_sky_precip
-    - sensor.dark_sky_daily_max_precip_intensity
+    - sensor.owm_condition
+    - sensor.owm_forecast
+    - sensor.owm_rain
+    - sensor.owm_temperature
 
 traffic:
   name: Traffic

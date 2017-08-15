@@ -23,6 +23,15 @@
     - precip_intensity_max
     - precip_type
 
+- platform: openweathermap
+  api_key: d7778ea8265a129740a879026a2ebcae
+  forecast: true
+  monitored_conditions:
+    - weather
+    - temperature
+    - rain
+
+
 # Speedtest
 - platform: speedtest
   minute:

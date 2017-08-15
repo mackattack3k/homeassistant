@@ -36,6 +36,17 @@ sensor.dark_sky_precip:
 sensor.dark_sky_daily_max_precip_intensity:
   friendly_name: Max precipitation
 
+sensor.owm_temperature:
+  friendly_name: Temperature
+sensor.owm_condition:
+  friendly_name: Summary
+sensor.owm_forecast:
+  friendly_name: Forecast
+sensor.owm_rain:
+  friendly_name: Rain
+
+
+# Traffic
 sensor.skanstull__thorildsplan:
   icon: mdi:train
 

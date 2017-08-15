@@ -80,6 +80,9 @@ emulated_hue:
   exposed_domains:
     - light
 
+influxdb:
+  host: 127.0.0.1
+
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
