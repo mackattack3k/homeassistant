@@ -51,7 +51,7 @@ http:
 history:
 
 # View all events in a logbook
-logbook:
+#logbook:
 
 recorder:
   purge_days: 14
