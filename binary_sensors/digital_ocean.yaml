@@ -1,2 +1,2 @@
-- platform: digital_ocean
-  droplets: 'carlefred.com'
+platform: digital_ocean
+droplets: 'carlefred.com'

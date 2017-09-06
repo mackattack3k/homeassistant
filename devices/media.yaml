@@ -1,14 +1,14 @@
 - platform: webostv
-  host: 192.168.1.132
+  host: 192.168.1.130
   name: Living room TV
 - platform: cast
-  host: 192.168.1.101
+  host: 192.168.1.122
   name: Google Home
 - platform: cast
-  host: 192.168.1.112
+  host: 192.168.1.120
   name: Chromecast bedroom
 - platform: cast
-  host: 192.168.1.102
+  host: 192.168.1.121
   name: Chromecast living room
 
 - platform: spotify

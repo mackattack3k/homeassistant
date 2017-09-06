@@ -320,3 +320,48 @@ hassbian:
   picture:
   track: true
   vendor: unknown
+
+martinsipad:
+  hide_if_away: false
+  icon:
+  mac: 74:81:14:2E:D7:6A
+  name: Martins-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+android910ba4713fa70620:
+  hide_if_away: false
+  icon:
+  mac: 40:40:A7:2C:05:6B
+  name: android-910ba4713fa70620
+  picture:
+  track: true
+  vendor: Sony Mobile Communications AB
+
+bb5f42a39a4d4eb383d081d1d7040d22:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:C9:01:50
+  name: bb5f42a3-9a4d-4eb3-83d0-81d1d7040d22
+  picture:
+  track: true
+  vendor: Google, Inc.
+
+ledelan:
+  hide_if_away: false
+  icon:
+  mac: 62:38:E0:D7:5B:B3
+  name: LEDE.lan
+  picture:
+  track: true
+  vendor: unknown
+
+18b430a193a2:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:A1:93:A2
+  name: 18b430a193a2
+  picture:
+  track: true
+  vendor: Nest Labs Inc.

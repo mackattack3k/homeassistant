@@ -82,6 +82,17 @@ emulated_hue:
 
 influxdb:
   host: 127.0.0.1
+  username: !secret influxuser
+  password: !secret influxpass
+
+nest:
+  client_id: !secret nestclientid
+  client_secret: !secret nestsecret
+  sensors:
+    monitored_conditions:
+      - co_status
+      - smoke_status
+      - battery_health
 
 group: !include_dir_merge_named groups
 
@@ -95,4 +106,4 @@ device_tracker: !include devices/network.yaml
 
 automation: !include automations.yaml
 
-binary_sensor: !include binary_sensors/digital_ocean.yaml
+binary_sensor: !include_dir_list binary_sensors

@@ -3,6 +3,7 @@ stats:
   view: no
   entities:
     - sensor.cpu_use
+    - sensor.cpu_temperature
     - sensor.disk_use_
     - sensor.last_boot
     - sensor.ram_free
@@ -38,6 +39,15 @@ bedroomlights:
     - group.bedroomceiling
     - light.marcus_light
     - light.lillys_light
+
+kitchen:
+  name: Kitchen
+  view: no
+  entities:
+    - sensor.kitchen_nest_protect_smoke_status
+    - sensor.kitchen_nest_protect_co_status
+    - sensor.kitchen_nest_protect_battery_health
+    - binary_sensor.kitchen_nest_protect_online
 
 livingroom:
   name: Living room

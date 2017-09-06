@@ -14,6 +14,11 @@ livingroomview:
     - group.livingroom
     - group.spotify
 
+kitchenview:
+  name: Kitchen
+  entities:
+    - group.kitchen
+
 closetview:
   name: Closet
   view: yes

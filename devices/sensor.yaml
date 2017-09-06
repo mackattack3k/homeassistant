@@ -1,3 +1,4 @@
+# System monitoring
 - platform: systemmonitor
   name: "systemmonitor"
   resources:
@@ -11,6 +12,11 @@
     arg: eth0
   - type: last_boot
 
+- platform: command_line
+  name: CPU Temperature
+  command: "cat /sys/class/thermal/thermal_zone0/temp"
+  unit_of_measurement: "°C"
+  value_template: '{{ value | multiply(0.001) }}'
 
 # Weather
 - platform: darksky
@@ -42,7 +48,7 @@
     - download
     - upload
 
-# Uber not working: https://github.com/home-assistant/home-assistant/issues/3971
+# Uber 
 - platform: uber
   server_token: !secret uber
   start_latitude: 59.308447
@@ -76,6 +82,7 @@
     - FB
     - GOOGL
     - TSLA
+    - AAPL
 
 # Closet motion sensor
 - platform: rest
