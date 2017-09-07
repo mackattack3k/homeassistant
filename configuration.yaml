@@ -27,17 +27,7 @@ tts:
 
 # Enables the frontend
 frontend:
-  themes:
-    purple:
-      primary-color: "#C2185B"
-      dark-primary-color: "#C2185B"
-      paper-toggle-button-checked-ink-color: "#C2185B"
-      paper-toggle-button-checked-button-color: "#C2185B"
-      paper-toggle-button-checked-bar-color: "#C2185B"
-      paper-slider-knob-color: "#C2185B"
-      paper-slider-knob-start-color: "#C2185B"
-      paper-slider-pin-color: "#C2185B"
-      paper-slider-active-color: "#C2185B"
+  themes: !include_dir_merge_named themes
 
 # Enables configuration UI
 config:
