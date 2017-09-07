@@ -16,6 +16,7 @@ livingroomview:
 
 kitchenview:
   name: Kitchen
+  view: yes
   entities:
     - group.kitchen
 
