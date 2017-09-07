@@ -20,3 +20,13 @@ secrets.yaml
 
 # Push for html notifications
 html5_push_registrations.conf
+
+#Random config files
+OZW_Log.txt
+config
+nest.conf
+options.xml
+ozw_config
+pyozw.sqlite
+zwcfg_0xe9a1f781.xml
+zwscene.xml
