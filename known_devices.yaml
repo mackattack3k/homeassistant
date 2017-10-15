@@ -365,3 +365,12 @@ ledelan:
   picture:
   track: true
   vendor: Nest Labs Inc.
+
+e4b318b15de6:
+  hide_if_away: false
+  icon:
+  mac: E4:B3:18:B1:5D:E6
+  name: e4b318b15de6
+  picture:
+  track: true
+  vendor: Intel Corporate

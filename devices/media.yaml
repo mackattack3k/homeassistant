@@ -1,5 +1,5 @@
 - platform: webostv
-  host: 192.168.1.130
+  host: 192.168.1.132
   name: Living room TV
 - platform: cast
   host: 192.168.1.122

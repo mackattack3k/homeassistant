@@ -116,10 +116,7 @@ automations:
   name: Automations
   view: no
   entities:
-    - automation.1_google_home_night_volume
-    - automation.2_google_home_normal_volume
-    - automation.3_lights_off__morning
-    - automation.4_set_theme
+    - automation.1_lights_off__morning
 
 spotify:
   name: Spotify

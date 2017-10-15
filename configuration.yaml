@@ -43,9 +43,9 @@ history:
 # View all events in a logbook
 #logbook:
 
-recorder:
-  purge_days: 14
-  db_url: !secret databaseurl
+#recorder:
+# purge_days: 14
+# db_url: !secret databaseurl
 
 ifttt:
   key: !secret iftt
@@ -54,7 +54,7 @@ digital_ocean:
   access_token: !secret digital_ocean
 
 zwave:
-  config_path: /home/homeassistant/.homeassistant/config/
+  #config_path: /home/homeassistant/.homeassistant/config/
   usb_path: /dev/ttyAMA0
   polling_interval: 30000
 
@@ -64,7 +64,7 @@ tradfri:
 
 emulated_hue:
   expose_by_default: false
-  host_ip: 192.168.1.150
+  host_ip: 192.168.1.151
   listen_port: 80
   type: google_home
   exposed_domains:
