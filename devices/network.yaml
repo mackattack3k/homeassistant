@@ -4,12 +4,6 @@
   track_new_devices: yes
   interval_seconds: 30
 
-#- platform: linksys_smart
-#  host: 192.168.1.1
-#  username: admin
-#  password: !secret routerpass
-#  track_new_devices: yes
-
 - platform: luci
   host: 192.168.1.1
   username: !secret routeruser

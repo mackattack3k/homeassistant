@@ -63,10 +63,11 @@ tradfri:
   api_key: !secret ikea
 
 emulated_hue:
-  expose_by_default: false
   host_ip: 192.168.1.151
+  advertise_ip: 192.168.1.151
   listen_port: 80
-  type: google_home
+  advertise_port: 80
+  expose_by_default: true
   exposed_domains:
     - light
 
@@ -83,6 +84,13 @@ nest:
       - co_status
       - smoke_status
       - battery_health
+
+customizer:
+  custom_ui: local
+
+duckdns:
+  domain: mackattack3k
+  access_token: b159f175-881a-45dc-8646-d229a77c2b05
 
 group: !include_dir_merge_named groups
 

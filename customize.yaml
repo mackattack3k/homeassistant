@@ -57,20 +57,3 @@ sensor.closet_motion:
   device_class: motion
   icon: mdi:run
 
-# Lights for google home
-light.bedroom_1:
-  emulated_hue_hidden: true
-light.bedroom_2:
-  emulated_hue_hidden: true
-light.bedroom_3:
-  emulated_hue_hidden: true
-light.lillys_light:
-  emulated_hue_hidden: true
-light.marcus_light:
-  emulated_hue_hidden: true
-light.sofa_light:
-  emulated_hue_hidden: true
-light.closet_light:
-  emulated_hue_hidden: true
-light.hallway_light:
-  emulated_hue_hidden: true
