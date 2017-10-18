@@ -92,6 +92,14 @@ duckdns:
   domain: mackattack3k
   access_token: b159f175-881a-45dc-8646-d229a77c2b05
 
+camera:
+  - platform: mjpeg
+    mjpeg_url: http://192.168.1.155:8000/stream/0
+    name: "Livingroom Camera"
+    username: !secret webcamuser
+    password: !secret webcampass
+    authentication: basic
+
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml

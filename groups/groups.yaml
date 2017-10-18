@@ -54,6 +54,7 @@ livingroom:
   view: no
   entities:
     - light.living_room
+    - camera.livingroom_camera
     - media_player.living_room_tv
     - media_player.living_room_home
     - media_player.chromecast_living_room
