@@ -1,12 +1,14 @@
 - id: lights_off
-  alias: 1. Lights off - morning
+  alias: 1. Lights off - not home
   trigger:
-    platform: time
-    at: '09:00:00'
-  condition:
-    condition: state
+    platform: state
     entity_id: group.people
-    state: 'not_home'
+    from: "home"
+    to: "not_home"
+    for:
+      hours: 0
+      minutes: 10
+      seconds: 0
   action:
     - service: light.turn_off
       entity_id: group.all_lights

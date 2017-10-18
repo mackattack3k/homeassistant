@@ -117,7 +117,7 @@ automations:
   name: Automations
   view: no
   entities:
-    - automation.1_lights_off__morning
+    - automation.1_lights_off__not_home
 
 spotify:
   name: Spotify
