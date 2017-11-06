@@ -60,7 +60,6 @@ zwave:
 
 tradfri:
   host: 192.168.1.181
-  api_key: !secret ikea
 
 emulated_hue:
   host_ip: 192.168.1.151
@@ -99,6 +98,12 @@ camera:
     username: !secret webcamuser
     password: !secret webcampass
     authentication: basic
+
+google_assistant:
+  project_id: hass-assistant-365f5
+  client_id: mackattack3kuniqueclientid
+  access_token: q7cvtnja5e6ywhpkv5azxekwcyn8bnvqige
+  expose_by_default: false
 
 group: !include_dir_merge_named groups
 
