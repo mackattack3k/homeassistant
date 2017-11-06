@@ -57,3 +57,21 @@ sensor.closet_motion:
   device_class: motion
   icon: mdi:run
 
+light.bedside:
+  google_assistant: true
+light.marcus_light:
+  google_assistant: true
+  aliases:
+    - marcus
+light.lillys_light:
+  google_assistant: true
+light.closet_light:
+  google_assistant: true
+light.hallway_light:
+  google_assistant: true
+light.sofa_light:
+  google_assistant: true
+light.bedroom_ceiling:
+  google_assistant: true
+
+
