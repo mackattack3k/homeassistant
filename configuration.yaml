@@ -61,14 +61,14 @@ zwave:
 tradfri:
   host: 192.168.1.181
 
-emulated_hue:
-  host_ip: 192.168.1.151
-  advertise_ip: 192.168.1.151
-  listen_port: 80
-  advertise_port: 80
-  expose_by_default: true
-  exposed_domains:
-    - light
+#emulated_hue:
+#host_ip: 192.168.1.151
+#advertise_ip: 192.168.1.151
+#listen_port: 80
+#advertise_port: 80
+#expose_by_default: true
+#exposed_domains:
+#- light
 
 influxdb:
   host: 127.0.0.1
@@ -91,13 +91,13 @@ duckdns:
   domain: mackattack3k
   access_token: b159f175-881a-45dc-8646-d229a77c2b05
 
-camera:
-  - platform: mjpeg
-    mjpeg_url: http://192.168.1.155:8000/stream/0
-    name: "Livingroom Camera"
-    username: !secret webcamuser
-    password: !secret webcampass
-    authentication: basic
+  #camera:
+  #- platform: mjpeg
+  #mjpeg_url: http://192.168.1.155:8000/stream/0
+  #  name: "Livingroom Camera"
+  #  username: !secret webcamuser
+  #  password: !secret webcampass
+  #  authentication: basic
 
 google_assistant:
   project_id: hass-assistant-365f5
