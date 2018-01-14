@@ -374,3 +374,30 @@ e4b318b15de6:
   picture:
   track: true
   vendor: Intel Corporate
+
+484baa8a4264:
+  hide_if_away: false
+  icon:
+  mac: 48:4B:AA:8A:42:64
+  name: 484baa8a4264
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+4098ad250db1:
+  hide_if_away: false
+  icon:
+  mac: 40:98:AD:25:0D:B1
+  name: 4098ad250db1
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+e4f0420c98a4:
+  hide_if_away: false
+  icon:
+  mac: E4:F0:42:0C:98:A4
+  name: e4f0420c98a4
+  picture:
+  track: true
+  vendor: Google, Inc.
