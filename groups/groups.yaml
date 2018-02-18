@@ -71,7 +71,7 @@ closet:
   name: Closet
   view: no
   entities:
-    - light.closet
+    - light.closet_light
     - sensor.closet_motion
 
 network:
@@ -108,9 +108,10 @@ stocks:
   name: Stocks
   view: no
   entities:
-    - sensor.fb
-    - sensor.googl
-    - sensor.tsla
+    - sensor.facebook
+    - sensor.alphabet
+    - sensor.tesla
+    - sensor.apple
 
 automations:
   name: Automations
