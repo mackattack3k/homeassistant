@@ -114,7 +114,7 @@ group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
 
-light: !include devices/lights.yaml
+#light: !include devices/lights.yaml
 
 media_player: !include devices/media.yaml
 
