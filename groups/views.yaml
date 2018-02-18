@@ -1,11 +1,12 @@
 default_view:
-    view: yes
-    entities:
-      - group.lights
-      - group.weather
-      - group.traffic
-      - group.stocks
-      - group.spotify
+  name: Home
+  view: yes
+  entities:
+    - group.lights
+    - group.weather
+    - group.traffic
+    - group.stocks
+    - group.spotify
 
 livingroomview:
   name: Livingroom
