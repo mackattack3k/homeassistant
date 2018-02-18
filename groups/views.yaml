@@ -1,6 +1,7 @@
 default_view:
   name: Home
   view: yes
+  icon: mdi:home-assistant
   entities:
     - group.lights
     - group.weather
@@ -11,6 +12,7 @@ default_view:
 livingroomview:
   name: Livingroom
   view: yes
+  icon: mdi:television-classic
   entities:
     - group.livingroom
     - group.spotify
@@ -18,24 +20,28 @@ livingroomview:
 kitchenview:
   name: Kitchen
   view: yes
+  icon: mdi:food
   entities:
     - group.kitchen
 
 closetview:
   name: Closet
   view: yes
+  icon: mdi:tshirt-crew
   entities:
     - group.closet
 
 bedroomview:
   name: Bedroom
   view: yes
+  icon: mdi:sleep 
   entities:
     - group.bedroom
 
 geekstuff:
   name: Geek stuff
   view: yes
+  icon: mdi:sunglasses
   entities:
     - group.stats
     - group.network
