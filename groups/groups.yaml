@@ -112,6 +112,7 @@ stocks:
     - sensor.alphabet
     - sensor.tesla
     - sensor.apple
+    - sensor.eth_balance
 
 automations:
   name: Automations
