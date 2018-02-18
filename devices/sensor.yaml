@@ -80,10 +80,14 @@
 - platform: alpha_vantage
   api_key: !secret alpha
   symbols:
-    - FB
-    - GOOGL
-    - TSLA
-    - AAPL
+    - name: Facebook
+      symbol: FB
+    - name: Alphabet
+      symbol: GOOGL
+    - name: Tesla
+      symbol: TSLA
+    - name: Apple
+      symbol: AAPL
 
 # Closet motion sensor
 - platform: rest
