@@ -77,7 +77,8 @@
     mode: transit
     units: metric
 
-- platform: yahoo_finance
+- platform: alpha_vantage
+  api_key: !secret alpha
   symbols:
     - FB
     - GOOGL
