@@ -110,6 +110,8 @@ hue:
     - host: 192.168.1.114
       allow_hue_groups: false
 
+cloud:
+
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
