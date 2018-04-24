@@ -99,12 +99,6 @@ duckdns:
   #  password: !secret webcampass
   #  authentication: basic
 
-google_assistant:
-  project_id: hass-assistant-365f5
-  client_id: mackattack3kuniqueclientid
-  access_token: q7cvtnja5e6ywhpkv5azxekwcyn8bnvqige
-  expose_by_default: false
-
 hue:
   bridges:
     - host: 192.168.1.114
