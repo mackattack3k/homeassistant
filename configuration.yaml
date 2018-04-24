@@ -61,15 +61,6 @@ zwave:
 tradfri:
   host: 192.168.1.181
 
-#emulated_hue:
-#host_ip: 192.168.1.151
-#advertise_ip: 192.168.1.151
-#listen_port: 80
-#advertise_port: 80
-#expose_by_default: true
-#exposed_domains:
-#- light
-
 influxdb:
   host: 127.0.0.1
   username: !secret influxuser
