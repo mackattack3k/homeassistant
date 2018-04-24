@@ -82,6 +82,7 @@
   symbols:
     - name: Facebook
       symbol: FB
+      currency: USD
     - name: Alphabet
       symbol: GOOGL
     - name: Tesla
