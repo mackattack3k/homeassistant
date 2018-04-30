@@ -437,3 +437,11 @@ c83c85439ff2:
   picture:
   track: true
   vendor: Apple, Inc.
+
+0028f8abb5e9:
+  hide_if_away: false
+  icon:
+  mac: 00:28:F8:AB:B5:E9
+  name: 0028f8abb5e9
+  picture:
+  track: true
