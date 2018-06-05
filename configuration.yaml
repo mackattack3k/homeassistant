@@ -50,21 +50,18 @@ history:
 ifttt:
   key: !secret iftt
 
-digital_ocean:
-  access_token: !secret digital_ocean
+#digital_ocean:
+#  access_token: !secret digital_ocean
 
-zwave:
-  #config_path: /home/homeassistant/.homeassistant/config/
-  usb_path: /dev/ttyAMA0
-  polling_interval: 30000
+# Disabled until vpn works
+#tradfri:
+#  host: !secret tradfriIP
 
-tradfri:
-  host: 192.168.1.181
-
-influxdb:
-  host: 127.0.0.1
-  username: !secret influxuser
-  password: !secret influxpass
+# Disabled until vpn works
+#influxdb:
+#  host: !secret influxIP
+#  username: !secret influxuser
+#  password: !secret influxpass
 
 nest:
   client_id: !secret nestclientid
@@ -78,22 +75,11 @@ nest:
 customizer:
   custom_ui: hosted
 
-duckdns:
-  domain: mackattack3k
-  access_token: b159f175-881a-45dc-8646-d229a77c2b05
-
-  #camera:
-  #- platform: mjpeg
-  #mjpeg_url: http://192.168.1.155:8000/stream/0
-  #  name: "Livingroom Camera"
-  #  username: !secret webcamuser
-  #  password: !secret webcampass
-  #  authentication: basic
-
-hue:
-  bridges:
-    - host: 192.168.1.114
-      allow_hue_groups: false
+# Disabled until vpn works
+#hue:
+#  bridges:
+#    - host: !secret hueIP
+#      allow_hue_groups: false
 
 cloud:
   google_actions:
@@ -108,13 +94,9 @@ cloud:
         - light.sofa_light
         - media_player.living_room_tv
 
-wake_on_lan:
-
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
-
-#light: !include devices/lights.yaml
 
 media_player: !include devices/media.yaml
 
@@ -122,4 +104,6 @@ device_tracker: !include devices/network.yaml
 
 automation: !include automations.yaml
 
-binary_sensor: !include_dir_list binary_sensors
+# Disabled for now
+#binary_sensor: !include_dir_list binary_sensors
+

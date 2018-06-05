@@ -12,12 +12,6 @@
     arg: eth0
   - type: last_boot
 
-- platform: command_line
-  name: CPU Temperature
-  command: "cat /sys/class/thermal/thermal_zone0/temp"
-  unit_of_measurement: "°C"
-  value_template: '{{ value | multiply(0.001) }}'
-
 # Weather
 - platform: darksky
   api_key: !secret darksky
@@ -36,17 +30,6 @@
     - weather
     - temperature
     - rain
-
-
-# Speedtest
-- platform: speedtest
-  hour:
-    - 2
-    - 14
-  monitored_conditions:
-    - ping
-    - download
-    - upload
 
 # Uber 
 - platform: uber
@@ -90,12 +73,13 @@
     - name: Apple
       symbol: AAPL
 
+# Disabled until vpn works
 # Closet motion sensor
-- platform: rest
-  resource: http://192.168.1.114/api/K9VXC64UMOXj-IpVTrzZbVyIXxXRd1cuv0CRIOe7/sensors/7
-  value_template: '{{ value_json.state.presence }}'
-  scan_interval: 5
-  name: Closet Motion
+#- platform: rest
+#  resource: http://192.168.1.114/api/K9VXC64UMOXj-IpVTrzZbVyIXxXRd1cuv0CRIOe7/sensors/7
+#  value_template: '{{ value_json.state.presence }}'
+#  scan_interval: 5
+#  name: Closet Motion
 
 
 - platform: etherscan

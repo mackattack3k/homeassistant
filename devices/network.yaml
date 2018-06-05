@@ -4,7 +4,8 @@
   #track_new_devices: yes
   #interval_seconds: 30
 
-- platform: luci
-  host: 192.168.1.1
-  username: !secret routeruser
-  password: !secret routerpass
+# Disabled until vpn works
+#- platform: luci
+#  host: !secret routerUrl
+#  username: !secret routeruser
+#  password: !secret routerpass
