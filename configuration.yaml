@@ -1,14 +1,9 @@
 homeassistant:
-  # Name of the location where Home Assistant is running
   name: Kebab Home
-  # Location required to calculate the time the sun rises and sets
   latitude: 59.308447
   longitude: 18.082513
-  # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 38
-  # metric for Metric, imperial for Imperial
   unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Stockholm
 
   customize: !include customize.yaml
@@ -41,7 +36,7 @@ http:
 history:
 
 # View all events in a logbook
-#logbook:
+logbook:
 
 #recorder:
 # purge_days: 14
@@ -53,9 +48,8 @@ ifttt:
 #digital_ocean:
 #  access_token: !secret digital_ocean
 
-# Disabled until vpn works
-#tradfri:
-#  host: !secret tradfriIP
+tradfri:
+  host: !secret tradfriIP
 
 # Disabled until vpn works
 #influxdb:
@@ -75,11 +69,10 @@ nest:
 customizer:
   custom_ui: hosted
 
-# Disabled until vpn works
-#hue:
-#  bridges:
-#    - host: !secret hueIP
-#      allow_hue_groups: false
+hue:
+  bridges:
+    - host: !secret hueIP
+      allow_hue_groups: false
 
 cloud:
   google_actions:
