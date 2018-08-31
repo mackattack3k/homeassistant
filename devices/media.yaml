@@ -14,16 +14,6 @@
         - Netflix
         - Plex
         - XBOX
-- platform: cast
-  host: 192.168.1.122
-  name: Google Home
-- platform: cast
-  host: 192.168.1.120
-  name: Chromecast bedroom
-- platform: cast
-  host: 192.168.1.121
-  name: Chromecast living room
-
 - platform: spotify
   name: Marcus Spotify
   client_id: eab25f830ae240e18ce070fa43ffb5d3

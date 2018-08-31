@@ -52,8 +52,8 @@ tradfri:
   host: !secret tradfriIP
 
 # Disabled until vpn works
-#influxdb:
-#  host: !secret influxIP
+influxdb:
+  host: !secret influxIP
 #  username: !secret influxuser
 #  password: !secret influxpass
 
@@ -87,6 +87,10 @@ cloud:
         - light.sofa_light
         - media_player.living_room_tv
 
+neato:
+  username: !secret neatouser
+  password: !secret neatopass
+
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
@@ -96,6 +100,8 @@ media_player: !include devices/media.yaml
 device_tracker: !include devices/network.yaml
 
 automation: !include automations.yaml
+
+cast: !include devices/cast.yaml
 
 # Disabled for now
 #binary_sensor: !include_dir_list binary_sensors

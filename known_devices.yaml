@@ -445,3 +445,67 @@ c83c85439ff2:
   name: 0028f8abb5e9
   picture:
   track: true
+
+508cb14507ed:
+  hide_if_away: false
+  icon:
+  mac: 50:8C:B1:45:07:ED
+  name: 508cb14507ed
+  picture:
+  track: true
+
+784f434d2ad4:
+  hide_if_away: false
+  icon:
+  mac: 78:4F:43:4D:2A:D4
+  name: 784f434d2ad4
+  picture:
+  track: true
+
+2c3361f0a823:
+  hide_if_away: false
+  icon:
+  mac: 2C:33:61:F0:A8:23
+  name: 2c3361f0a823
+  picture:
+  track: true
+
+d0d2b0729c91:
+  hide_if_away: false
+  icon:
+  mac: D0:D2:B0:72:9C:91
+  name: d0d2b0729c91
+  picture:
+  track: true
+
+88e9fe660f08:
+  hide_if_away: false
+  icon:
+  mac: 88:E9:FE:66:0F:08
+  name: 88e9fe660f08
+  picture:
+  track: true
+
+94dbc94c39e7:
+  hide_if_away: false
+  icon:
+  mac: 94:DB:C9:4C:39:E7
+  name: 94dbc94c39e7
+  picture:
+  track: true
+
+04d6aa110e48:
+  hide_if_away: false
+  icon:
+  mac: 04:D6:AA:11:0E:48
+  name: 04d6aa110e48
+  picture:
+  track: true
+
+94652da41a1c:
+  hide_if_away: false
+  icon:
+  mac: 94:65:2D:A4:1A:1C
+  name: 94652da41a1c
+  picture:
+  track: true

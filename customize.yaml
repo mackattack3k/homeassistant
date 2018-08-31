@@ -18,6 +18,9 @@ device_tracker.philipshue1921681114:
   icon: mdi:lightbulb-outline
   hidden: false
 
+device_tracker.xboxone:
+  hidden: false
+
 binary_sensor.carlefredcom:
   icon: mdi:server
   device_class: connectivity
@@ -74,4 +77,6 @@ light.sofa_light:
 light.bedroom_ceiling:
   google_assistant: true
 
-
+# Automations
+group.all_automations:
+  hidden: false

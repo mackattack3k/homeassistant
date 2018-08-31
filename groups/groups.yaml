@@ -78,15 +78,11 @@ network:
   name: All network devices
   view: no
   entities:
-    - device_tracker.chromecastultra
     - device_tracker.dietpi
     - device_tracker.huawei_p10
     - device_tracker.marcussipad
     - device_tracker.marcussiphone
-    - device_tracker.marcussmacbookair
-    - device_tracker.raspberrypi3
     - device_tracker.xboxone
-    - binary_sensor.carlefredcom
 
 weather:
   name: Weather
@@ -114,12 +110,6 @@ stocks:
     - sensor.apple
     - sensor.eth_balance
 
-automations:
-  name: Automations
-  view: no
-  entities:
-    - automation.1_lights_off__not_home
-
 spotify:
   name: Spotify
   view: no
@@ -132,3 +122,12 @@ people:
   entities:
     - device_tracker.marcussiphone
     - device_tracker.huawei_p10
+
+vacuum:
+  name: Vacuum
+  view: no
+  entities:
+   - switch.kebabot_schedule
+   - vacuum.kebabot
+   - camera.kebabot_cleaning_map
+

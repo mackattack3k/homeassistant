@@ -8,6 +8,7 @@ default_view:
     - group.traffic
     - group.stocks
     - group.spotify
+    - group.vacuum
 
 livingroomview:
   name: Livingroom
@@ -16,6 +17,7 @@ livingroomview:
   entities:
     - group.livingroom
     - group.spotify
+    - group.vacuum
 
 kitchenview:
   name: Kitchen
@@ -45,4 +47,4 @@ geekstuff:
   entities:
     - group.stats
     - group.network
-    - group.automations
+    - group.all_automations
