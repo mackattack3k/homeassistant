@@ -82,8 +82,8 @@
   name: Closet Motion
 
 
-- platform: etherscan
-  address: '0xDE02b2B959aC48703b7666B59aA94f4973176992'
-- platform: etherscan
-  address: '0xDE02b2B959aC48703b7666B59aA94f4973176992'
-  token: VEN
+#- platform: etherscan
+#  address: '0xDE02b2B959aC48703b7666B59aA94f4973176992'
+#- platform: etherscan
+#  address: '0xDE02b2B959aC48703b7666B59aA94f4973176992'
+#  token: VEN
