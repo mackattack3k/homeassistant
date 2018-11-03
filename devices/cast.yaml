@@ -1,0 +1,6 @@
+media-player:
+  -  host: 192.168.1.122
+media-player:
+  -  host: 192.168.1.120
+media-player:
+  -  host: 192.168.1.121
