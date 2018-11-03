@@ -12,17 +12,3 @@
   action:
   - service: light.turn_off
     entity_id: group.all_lights
-- id: '1528315121777'
-  alias: Marcus morning
-  trigger:
-  - at: 06:30
-    platform: time
-  condition:
-  - condition: state
-    entity_id: device_tracker.marcussiphone
-    state: home
-  action:
-  - data:
-      entity_id: light.marcus_light
-      transition: 20
-    service: light.turn_on

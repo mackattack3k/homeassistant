@@ -509,3 +509,27 @@ d0d2b0729c91:
   name: 94652da41a1c
   picture:
   track: true
+
+1c4d700ba748:
+  hide_if_away: false
+  icon:
+  mac: 1C:4D:70:0B:A7:48
+  name: 1c4d700ba748
+  picture:
+  track: true
+
+80b03d35e935:
+  hide_if_away: false
+  icon:
+  mac: 80:B0:3D:35:E9:35
+  name: 80b03d35e935
+  picture:
+  track: true
+
+88b4a6c76917:
+  hide_if_away: false
+  icon:
+  mac: 88:B4:A6:C7:69:17
+  name: 88b4a6c76917
+  picture:
+  track: true

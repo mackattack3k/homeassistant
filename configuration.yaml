@@ -74,22 +74,37 @@ hue:
     - host: !secret hueIP
       allow_hue_groups: false
 
-cloud:
-  google_actions:
-    filter:
-      include_entities:
-        - light.bedside
-        - light.bedroom_ceiling
-        - light.marcus_light
-        - light.lillys_light
-        - light.closet_light
-        - light.hallway_light
-        - light.sofa_light
-        - media_player.living_room_tv
+#cloud:
+# google_actions:
+#   filter:
+#     include_entities:
+#       - light.bedside
+#       - light.bedroom_ceiling
+#       - light.marcus_light
+#       - light.lillys_light
+#       - light.closet_light
+#       - light.hallway_light
+#       - light.sofa_light
+#       - media_player.living_room_tv
+
+google_assistant:
+  project_id: hass-assistant-365f5
+  client_id: mackattack3kuniqueclientid
+  access_token: !secret googleAssistant
+  api_key: !secret homegraphApi
+#  expose_by_default: false
+#  exposed_domains:
+#    - switch
+#    - light
 
 neato:
   username: !secret neatouser
   password: !secret neatopass
+
+mqtt:
+  username: !secret mqttuser
+  password: !secret mqttpass
+  broker: mqtt
 
 group: !include_dir_merge_named groups
 
