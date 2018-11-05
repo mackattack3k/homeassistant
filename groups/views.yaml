@@ -18,6 +18,7 @@ livingroomview:
     - group.livingroom
     - group.spotify
     - group.vacuum
+    - group.window
 
 kitchenview:
   name: Kitchen

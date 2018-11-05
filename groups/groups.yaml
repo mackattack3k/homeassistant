@@ -22,6 +22,7 @@ lights:
     - light.hallway_light
     - light.marcus_light
     - light.lillys_light
+    - switch.window_light
     - group.bedroomceiling
 
 bedroomceiling:
@@ -57,6 +58,8 @@ livingroom:
     - media_player.living_room_tv
     - media_player.living_room_home
     - media_player.living_room_cast
+    - switch.window_light
+    - sensor.window_remote
 
 bedroom:
   name: Bedroom

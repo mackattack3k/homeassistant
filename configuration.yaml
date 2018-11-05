@@ -89,13 +89,25 @@ hue:
 
 google_assistant:
   project_id: hass-assistant-365f5
-  client_id: mackattack3kuniqueclientid
-  access_token: !secret googleAssistant
   api_key: !secret homegraphApi
-#  expose_by_default: false
-#  exposed_domains:
-#    - switch
-#    - light
+  expose_by_default: false
+  entity_config:
+    light.bedside:
+      expose: true
+    light.marcus_light:
+      expose: true
+    light.lillys_light:
+      expose: true
+    light.closet_light:
+      expose: true
+    light.hallway_light:
+      expose: true
+    light.sofa_light:
+      expose: true
+    light.bedroom_ceiling:
+      expose: true
+    switch.window_light:
+      expose: true
 
 neato:
   username: !secret neatouser
