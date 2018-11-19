@@ -38,8 +38,8 @@ history:
 # View all events in a logbook
 logbook:
 
-#recorder:
-# purge_days: 14
+recorder:
+  purge_days: 14
 # db_url: !secret databaseurl
 
 ifttt:
@@ -54,8 +54,8 @@ tradfri:
 # Disabled until vpn works
 influxdb:
   host: !secret influxIP
-#  username: !secret influxuser
-#  password: !secret influxpass
+  username: !secret influxuser
+  password: !secret influxpass
 
 nest:
   client_id: !secret nestclientid
