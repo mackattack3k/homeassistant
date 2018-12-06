@@ -22,15 +22,15 @@ tts:
 
 # Enables the frontend
 frontend:
-  themes: !include_dir_merge_named themes
 
 # Enables configuration UI
 config:
 
 http:
-  api_password: !secret api
   base_url: !secret url
   ip_ban_enabled: false
+
+websocket_api:
 
 # Enables support for tracking state changes over time.
 history:
@@ -38,8 +38,8 @@ history:
 # View all events in a logbook
 logbook:
 
-recorder:
-  purge_days: 14
+#recorder:
+#  purge_days: 14
 # db_url: !secret databaseurl
 
 ifttt:
@@ -56,6 +56,10 @@ influxdb:
   host: !secret influxIP
   username: !secret influxuser
   password: !secret influxpass
+  include:
+    domains:
+      - light
+      - weather
 
 nest:
   client_id: !secret nestclientid
@@ -66,26 +70,10 @@ nest:
       - smoke_status
       - battery_health
 
-customizer:
-  custom_ui: hosted
-
 hue:
   bridges:
     - host: !secret hueIP
       allow_hue_groups: false
-
-#cloud:
-# google_actions:
-#   filter:
-#     include_entities:
-#       - light.bedside
-#       - light.bedroom_ceiling
-#       - light.marcus_light
-#       - light.lillys_light
-#       - light.closet_light
-#       - light.hallway_light
-#       - light.sofa_light
-#       - media_player.living_room_tv
 
 google_assistant:
   project_id: hass-assistant-365f5
@@ -106,7 +94,7 @@ google_assistant:
       expose: true
     light.bedroom_ceiling:
       expose: true
-    switch.window_light:
+    light.window_light:
       expose: true
 
 neato:
@@ -118,6 +106,8 @@ mqtt:
   password: !secret mqttpass
   broker: mqtt
 
+light: !include lights.yaml
+
 group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
@@ -126,10 +116,13 @@ media_player: !include devices/media.yaml
 
 device_tracker: !include devices/network.yaml
 
-automation: !include automations.yaml
+# automation: !include automations.yaml
 
 cast: !include devices/cast.yaml
 
+input_boolean: !include inputs.yaml
+
+ios: !include ios.yaml
+
 # Disabled for now
 #binary_sensor: !include_dir_list binary_sensors
-

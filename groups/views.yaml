@@ -37,9 +37,16 @@ closetview:
 bedroomview:
   name: Bedroom
   view: yes
-  icon: mdi:sleep 
+  icon: mdi:sleep
   entities:
     - group.bedroom
+
+entrywayview:
+  name: Entryway
+  view: yes
+  icon: mdi:door
+  entities:
+    - group.entryway
 
 geekstuff:
   name: Geek stuff
@@ -48,4 +55,4 @@ geekstuff:
   entities:
     - group.stats
     - group.network
-    - group.all_automations
+    - group.people
