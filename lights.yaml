@@ -1,0 +1,6 @@
+- platform: switch
+  name: Window light
+  entity_id: switch.window_light
+- platform: switch
+  name: Kitchen christmas
+  entity_id: switch.kitchen_outlet

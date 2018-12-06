@@ -1,0 +1,11 @@
+push:
+  categories:
+    - name: Battery
+      identifier: 'battery'
+      actions:
+        - identifier: 'battery_low'
+          title: 'Low battery'
+          activationMode: 'background'
+          authenticationRequired: yes
+          destructive: yes
+          behavior: 'default'

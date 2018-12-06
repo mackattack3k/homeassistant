@@ -1,0 +1,4 @@
+guests:
+  name: Guests
+  initial: off
+  icon: mdi:account-group
