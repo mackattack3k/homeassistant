@@ -5,7 +5,9 @@ homeassistant:
   elevation: 38
   unit_system: metric
   time_zone: Europe/Stockholm
-
+  auth_providers:
+    - type: homeassistant
+    - type: legacy_api_password
   customize: !include customize.yaml
   customize_glob: !include customize_glob.yaml
 
@@ -29,6 +31,7 @@ config:
 http:
   base_url: !secret url
   ip_ban_enabled: false
+  api_password: !secret api
 
 websocket_api:
 
@@ -76,7 +79,7 @@ hue:
       allow_hue_groups: false
 
 google_assistant:
-  project_id: hass-assistant-365f5
+  project_id: hass-160416
   api_key: !secret homegraphApi
   expose_by_default: false
   entity_config:
@@ -105,6 +108,7 @@ mqtt:
   username: !secret mqttuser
   password: !secret mqttpass
   broker: mqtt
+  client_id: hass-cloud
 
 light: !include lights.yaml
 
@@ -122,7 +126,7 @@ cast: !include devices/cast.yaml
 
 input_boolean: !include inputs.yaml
 
-ios: !include ios.yaml
+ios:
 
 # Disabled for now
 #binary_sensor: !include_dir_list binary_sensors

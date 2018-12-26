@@ -2,16 +2,12 @@ stats:
   name: System statistics
   view: no
   entities:
-    - sensor.cpu_use
-    - sensor.cpu_temperature
-    - sensor.disk_use_
+    - sensor.disk_use_percent_
+    - sensor.processor_use
     - sensor.last_boot
-    - sensor.ram_free
-    - sensor.received_eth0
-    - sensor.sent_eth0
-    - sensor.speedtest_download
-    - sensor.speedtest_upload
-    - sensor.speedtest_ping
+    - sensor.memory_use
+    - sensor.network_in_eth0
+    - sensor.network_out_eth0
 
 lights:
   name: All lights
