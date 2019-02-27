@@ -533,3 +533,19 @@ d0d2b0729c91:
   name: 88b4a6c76917
   picture:
   track: true
+
+marcuss_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Marcus’s iPhone
+  picture:
+  track: true
+
+5891cfb61165:
+  hide_if_away: false
+  icon:
+  mac: 58:91:CF:B6:11:65
+  name: 5891cfb61165
+  picture:
+  track: true

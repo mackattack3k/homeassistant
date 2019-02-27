@@ -4,3 +4,10 @@
 - platform: switch
   name: Kitchen christmas
   entity_id: switch.kitchen_outlet
+
+- platform: group
+  name: Bedroom ceiling
+  entities:
+    - light.bedroom_1
+    - light.bedroom_2
+    - light.bedroom_3

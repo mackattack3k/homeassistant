@@ -1,44 +1,32 @@
 device_tracker.marcussiphone:
   icon: mdi:cellphone-iphone
   hidden: false
-
 device_tracker.marcussmacbookair:
   icon: mdi:laptop-mac
   hidden: false
-
 device_tracker.huawei_p10:
   icon: mdi:cellphone-android
   hidden: false
-
 device_tracker.marcussipad:
   icon: mdi:tablet-ipad
   hidden: false
-
 device_tracker.philipshue1921681114:
   icon: mdi:lightbulb-outline
   hidden: false
-
 device_tracker.xboxone:
   hidden: false
-
 binary_sensor.carlefredcom:
   icon: mdi:server
   device_class: connectivity
   friendly_name: Carlefred.com
-
-# Weather friendly names
 sensor.dark_sky_summary:
   friendly_name: Summary
-
 sensor.dark_sky_temperature:
   friendly_name: Temperature
-
 sensor.dark_sky_precip:
   friendly_name: Precipitation
-
 sensor.dark_sky_daily_max_precip_intensity:
   friendly_name: Max precipitation
-
 sensor.owm_temperature:
   friendly_name: Temperature
 sensor.owm_condition:
@@ -47,19 +35,21 @@ sensor.owm_forecast:
   friendly_name: Forecast
 sensor.owm_rain:
   friendly_name: Rain
-
-
-# Traffic
-sensor.skanstull__thorildsplan:
+sensor.skanstull_thorildsplan:
   icon: mdi:train
-
-sensor.skanstull__karbin_klatterhall:
+sensor.skanstull_karbin_klatterhall:
   icon: mdi:train
-
 sensor.closet_motion:
   device_class: motion
   icon: mdi:run
-
-# Automations
+sensor.hallway_motion:
+  device_class: battery
+sensor.bedroom_remote:
+  device_class: battery
 group.all_automations:
   hidden: false
+sensor.window_status:
+  friendly_name: Window status
+  icon: mdi:window-closed
+sensor.window_battery:
+  unit_of_measurement: '%'

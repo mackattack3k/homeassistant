@@ -2,7 +2,7 @@ stats:
   name: System statistics
   view: no
   entities:
-    - sensor.disk_use_percent_
+    - sensor.disk_use_percent
     - sensor.processor_use
     - sensor.last_boot
     - sensor.memory_use
@@ -20,21 +20,13 @@ lights:
     - light.lillys_light
     - light.window_light
     - light.kitchen_christmas
-    - group.bedroomceiling
-
-bedroomceiling:
-  name: Bedroom ceiling lights
-  view: no
-  entities:
-    - light.bedroom_1
-    - light.bedroom_2
-    - light.bedroom_3
+    - light.bedroom_ceiling
 
 bedroomlights:
   name: Bedroom lights
   view: no
   entities:
-    - group.bedroomceiling
+    - light.bedroom_ceiling
     - light.marcus_light
     - light.lillys_light
 
@@ -66,7 +58,7 @@ bedroom:
     - media_player.bedroom_cast
     - light.marcus_light
     - light.lillys_light
-    - group.bedroomceiling
+    - light.bedroom_ceiling
     - sensor.bedroom_remote
 
 closet:
@@ -99,8 +91,8 @@ traffic:
   name: Traffic
   view: no
   entities:
-    - sensor.skanstull__thorildsplan
-    - sensor.skanstull__karbin_klatterhall
+    - sensor.skanstull_thorildsplan
+    - sensor.skanstull_karbin_klatterhall
 
 stocks:
   name: Stocks

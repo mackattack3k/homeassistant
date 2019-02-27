@@ -110,6 +110,8 @@ mqtt:
   broker: mqtt
   client_id: hass-cloud
 
+system_health:
+
 light: !include lights.yaml
 
 group: !include_dir_merge_named groups
@@ -120,13 +122,9 @@ media_player: !include devices/media.yaml
 
 device_tracker: !include devices/network.yaml
 
-# automation: !include automations.yaml
-
-cast: !include devices/cast.yaml
-
 input_boolean: !include inputs.yaml
 
 ios:
 
-# Disabled for now
-#binary_sensor: !include_dir_list binary_sensors
+# https://github.com/custom-components/custom_updater/wiki/Installation
+custom_updater:
