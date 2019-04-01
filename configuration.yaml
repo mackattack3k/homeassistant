@@ -7,7 +7,6 @@ homeassistant:
   time_zone: Europe/Stockholm
   auth_providers:
     - type: homeassistant
-    - type: legacy_api_password
   customize: !include customize.yaml
   customize_glob: !include customize_glob.yaml
 
@@ -31,7 +30,6 @@ config:
 http:
   base_url: !secret url
   ip_ban_enabled: false
-  api_password: !secret api
 
 websocket_api:
 
@@ -118,6 +116,8 @@ group: !include_dir_merge_named groups
 
 sensor: !include devices/sensor.yaml
 
+binary_sensor: !include_dir_merge_named binary_sensors
+
 media_player: !include devices/media.yaml
 
 device_tracker: !include devices/network.yaml
@@ -128,3 +128,5 @@ ios:
 
 # https://github.com/custom-components/custom_updater/wiki/Installation
 custom_updater:
+  component_urls:
+    - https://raw.githubusercontent.com/robmarkcole/Hue-sensors-HASS/master/custom_updater.json

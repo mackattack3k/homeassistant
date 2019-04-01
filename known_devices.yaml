@@ -549,3 +549,11 @@ marcuss_iphone:
   name: 5891cfb61165
   picture:
   track: true
+
+f0_db_f8_a4_8d_67:
+  hide_if_away: false
+  icon:
+  mac: F0:DB:F8:A4:8D:67
+  name: f0 db f8 a4 8d 67
+  picture:
+  track: true

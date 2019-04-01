@@ -4,7 +4,10 @@
   #track_new_devices: yes
   #interval_seconds: 30
 
-- platform: luci
-  host: !secret routerUrl
-  username: !secret routeruser
-  password: !secret routerpass
+# Disabled to test if event driven tracking from device is better
+# https://github.com/mueslo/openwrt_hass_devicetracker
+#- platform: luci
+#  host: !secret routerUrl
+#  username: !secret routeruser
+#  password: !secret routerpass
+
