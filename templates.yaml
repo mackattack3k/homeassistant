@@ -1,0 +1,19 @@
+- platform: template
+    sensors:
+      neato_area:
+        friendly_name: "Neato: Area cleaned on last run"
+        value_template: "Area Cleaned: {{ states.vacuum.neato.attributes.clean_area | round(1) }}"
+        unit_of_measurement: 'm²'
+
+  - platform: template
+    sensors:
+      neato_status:
+        friendly_name: "Neato: Status"
+        value_template: "Status: {{ states.vacuum.neato.attributes.status }}"
+
+  - platform: template
+    sensors:
+      neato_battery:
+        friendly_name: "Battery: neato"
+        value_template: "{{ states.vacuum.neato.attributes.battery_level }}"
+        unit_of_measurement: '%'
