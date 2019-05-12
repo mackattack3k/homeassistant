@@ -11,7 +11,8 @@ homeassistant:
   customize_glob: !include customize_glob.yaml
 
 tts:
-  - platform: google
+  - platform: google_translate
+    service_name: google_say
     cache: true
     cache_dir: ./tts
     time_memory: 300
@@ -97,16 +98,20 @@ google_assistant:
       expose: true
     light.window_light:
       expose: true
+    vacuum.kebabot:
+      expose: true
+    media_player.living_room_tv:
+      expose: true
 
 neato:
   username: !secret neatouser
   password: !secret neatopass
 
-mqtt:
-  username: !secret mqttuser
-  password: !secret mqttpass
-  broker: mqtt
-  client_id: hass-cloud
+#mqtt:
+#  username: !secret mqttuser
+#  password: !secret mqttpass
+#  broker: mqtt
+#  client_id: hass-cloud
 
 system_health:
 
@@ -128,5 +133,3 @@ ios:
 
 # https://github.com/custom-components/custom_updater/wiki/Installation
 custom_updater:
-  component_urls:
-    - https://raw.githubusercontent.com/robmarkcole/Hue-sensors-HASS/master/custom_updater.json

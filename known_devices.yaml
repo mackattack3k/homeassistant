@@ -7,50 +7,18 @@ linksys12590:
   track: true
   vendor: Belkin International Inc.
 
-5b97989e6243687319c5017de1c3a4b2:
-  hide_if_away: false
-  mac: F4:F5:D8:C9:CC:78
-  name: 5b97989e-6243-6873-19c5-017de1c3a4b2
-  picture:
-  track: true
-  vendor: Google, Inc.
-
-raspberrypi3:
-  hide_if_away: false
-  mac: B8:27:EB:48:4B:63
-  name: Raspberry pi3
-  picture:
-  track: true
-  vendor: Raspberry Pi Foundation
-
 philipshue1921681114:
   hide_if_away: false
   mac: 00:17:88:49:06:DE
   name: Philips Hue Bridge
   picture:
-  track: true
+  track: false
   vendor: Philips Lighting BV
-
-marcussmacbookair:
-  hide_if_away: false
-  mac: 00:88:65:42:FD:1E
-  name: Macbook Air
-  picture:
-  track: true
-  vendor: Apple, Inc.
 
 chromecastultra:
   hide_if_away: false
   mac: F4:F5:D8:5F:EA:92
   name: Chromecast-Ultra
-  picture:
-  track: true
-  vendor: Google, Inc.
-
-d92b7d8ac98fbd864ba53283607ca680:
-  hide_if_away: false
-  mac: F4:F5:D8:65:43:E8
-  name: d92b7d8a-c98f-bd86-4ba5-3283607ca680
   picture:
   track: true
   vendor: Google, Inc.
@@ -63,14 +31,6 @@ huawei_p10:
   track: true
   vendor: HUAWEI TECHNOLOGIES CO.,LTD
 
-marcussiphone_6s:
-  hide_if_away: false
-  mac: 00:CD:FE:84:9B:0C
-  name: Marcus iPhone 6s
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
 livingroomtv:
   hide_if_away: false
   mac: A0:6F:AA:47:99:68
@@ -78,46 +38,6 @@ livingroomtv:
   picture:
   track: true
   vendor: LG Innotek
-
-android95e2901b9c8f38f1:
-  hide_if_away: false
-  mac: 98:E7:F5:7D:C4:9E
-  name: android-95e2901b9c8f38f1
-  picture:
-  track: true
-  vendor: HUAWEI TECHNOLOGIES CO.,LTD
-
-gwb072bf27aea5:
-  hide_if_away: false
-  mac: B0:72:BF:27:AE:A5
-  name: GW-B072BF27AEA5
-  picture:
-  track: true
-  vendor: Murata Manufacturing Co., Ltd.
-
-marcussipad:
-  hide_if_away: false
-  mac: 90:8D:6C:2C:9C:FE
-  picture:
-  track: true
-  vendor: Apple, Inc.
-  name: Marcus iPad
-
-android6d86b1f2129d4be4:
-  hide_if_away: false
-  mac: D8:50:E6:85:77:04
-  name: android-6d86b1f2129d4be4
-  picture:
-  track: true
-  vendor: ASUSTek COMPUTER INC.
-
-marcussiphone2:
-  hide_if_away: false
-  mac: 70:EC:E4:92:2B:28
-  name: MarcussiPhone2
-  picture:
-  track: true
-  vendor: Apple, Inc.
 
 lgwebostv:
   hide_if_away: false
@@ -132,15 +52,7 @@ lajsasiphone2:
   mac: 9C:F4:8E:4B:33:5E
   name: Lajsas-iPhone-2
   picture:
-  track: true
-  vendor: Apple, Inc.
-
-malur:
-  hide_if_away: false
-  mac: 70:EC:E4:4E:1E:9B
-  name: MaLur
-  picture:
-  track: true
+  track: false
   vendor: Apple, Inc.
 
 jessicasiphone:
@@ -150,23 +62,6 @@ jessicasiphone:
   picture:
   track: true
   vendor: Apple, Inc.
-
-iphone:
-  hide_if_away: false
-  mac: 48:74:6E:B2:6E:0A
-  name: iPhone
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-android20751394b5bbe736:
-  hide_if_away: false
-  icon:
-  mac: 94:35:0A:E2:A0:38
-  name: android-20751394b5bbe736
-  picture:
-  track: true
-  vendor: Samsung Electronics Co.,Ltd
 
 dietpi:
   hide_if_away: false
@@ -199,160 +94,16 @@ a345f3251caa4abbaf8886afa2f9de2b:
   hide_if_away: false
   icon:
   mac: 00:00:00:00:01:50
-  name: a345f325-1caa-4abb-af88-86afa2f9de2b
+  name: Xbox One S
   picture:
   track: true
   vendor: XEROX CORPORATION
-
-d3aec99b3a26482f9913fae76e080343:
-  hide_if_away: false
-  icon:
-  mac: B4:9C:DF:30:4B:45
-  name: d3aec99b-3a26-482f-9913-fae76e080343
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-d92b7d8ac98fbd864ba53283607ca680_2:
-  hide_if_away: false
-  icon:
-  mac: 00:00:00:00:08:00
-  name: d92b7d8a-c98f-bd86-4ba5-3283607ca680
-  picture:
-  track: true
-  vendor: XEROX CORPORATION
-
-iphone_2:
-  hide_if_away: false
-  icon:
-  mac: 40:33:1A:63:52:6F
-  name: iPhone
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-43c3bd642fa55362afd984508f3d09ed:
-  hide_if_away: false
-  icon:
-  mac: 00:CD:FE:84:00:00
-  name: 43c3bd64-2fa5-5362-afd9-84508f3d09ed
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-markbook:
-  hide_if_away: false
-  icon:
-  mac: AC:BC:32:A8:8E:67
-  name: MarkBook
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-android:
-  hide_if_away: false
-  icon:
-  mac: 00:00:00:00:00:00
-  name: Android
-  picture:
-  track: true
-  vendor: XEROX CORPORATION
-
-f6cdfc2cbd6c4d3f9b480b7533be5cee:
-  hide_if_away: false
-  icon:
-  mac: 1C:91:48:16:01:50
-  name: f6cdfc2c-bd6c-4d3f-9b48-0b7533be5cee
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-6021bb8f760c4837a1b40dd8a8a9f22a:
-  hide_if_away: false
-  icon:
-  mac: 94:9A:A9:C7:94:B6
-  name: 6021bb8f-760c-4837-a1b4-0dd8a8a9f22a
-  picture:
-  track: true
-  vendor: Microsoft Corporation
-
-30c7816c5b9c42c99f1c1d59a2223e15:
-  hide_if_away: false
-  icon:
-  mac: 48:4B:AA:4E:80:E7
-  name: 30c7816c-5b9c-42c9-9f1c-1d59a2223e15
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-43c3bd642fa55362afd984508f3d09ed_2:
-  hide_if_away: false
-  icon:
-  mac: 70:E4:22:1D:12:4B
-  name: 43c3bd64-2fa5-5362-afd9-84508f3d09ed
-  picture:
-  track: true
-  vendor: Cisco Systems, Inc
-
-260f946508d04e888e98cde70ce6b263:
-  hide_if_away: false
-  icon:
-  mac: 10:41:7F:A4:2C:39
-  name: 260f9465-08d0-4e88-8e98-cde70ce6b263
-  picture:
-  track: true
-  vendor: Apple, Inc.
 
 desktopt5eevdt:
   hide_if_away: false
   icon:
   mac: 8C:89:A5:C2:01:86
-  name: DESKTOP-T5EEVDT
-  picture:
-  track: true
-  vendor: unknown
-
-hassbian:
-  hide_if_away: false
-  icon:
-  mac: B8:27:EB:1D:1E:36
-  name: hassbian
-  picture:
-  track: true
-  vendor: unknown
-
-martinsipad:
-  hide_if_away: false
-  icon:
-  mac: 74:81:14:2E:D7:6A
-  name: Martins-iPad
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-android910ba4713fa70620:
-  hide_if_away: false
-  icon:
-  mac: 40:40:A7:2C:05:6B
-  name: android-910ba4713fa70620
-  picture:
-  track: true
-  vendor: Sony Mobile Communications AB
-
-bb5f42a39a4d4eb383d081d1d7040d22:
-  hide_if_away: false
-  icon:
-  mac: F4:F5:D8:C9:01:50
-  name: bb5f42a3-9a4d-4eb3-83d0-81d1d7040d22
-  picture:
-  track: true
-  vendor: Google, Inc.
-
-ledelan:
-  hide_if_away: false
-  icon:
-  mac: 62:38:E0:D7:5B:B3
-  name: LEDE.lan
+  name: Marcus Desktop
   picture:
   track: true
   vendor: unknown
@@ -361,199 +112,137 @@ ledelan:
   hide_if_away: false
   icon:
   mac: 18:B4:30:A1:93:A2
-  name: 18b430a193a2
+  name: Nest Protect
   picture:
   track: true
   vendor: Nest Labs Inc.
 
-e4b318b15de6:
-  hide_if_away: false
-  icon:
-  mac: E4:B3:18:B1:5D:E6
-  name: e4b318b15de6
-  picture:
-  track: true
-  vendor: Intel Corporate
-
-484baa8a4264:
-  hide_if_away: false
-  icon:
-  mac: 48:4B:AA:8A:42:64
-  name: 484baa8a4264
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-4098ad250db1:
-  hide_if_away: false
-  icon:
-  mac: 40:98:AD:25:0D:B1
-  name: 4098ad250db1
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-e4f0420c98a4:
-  hide_if_away: false
-  icon:
-  mac: E4:F0:42:0C:98:A4
-  name: e4f0420c98a4
-  picture:
-  track: true
-  vendor: Google, Inc.
-
-d4a33ddfdcc0:
-  hide_if_away: false
-  icon:
-  mac: D4:A3:3D:DF:DC:C0
-  name: d4a33ddfdcc0
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-44d4e05ee293:
-  hide_if_away: false
-  icon:
-  mac: 44:D4:E0:5E:E2:93
-  name: 44d4e05ee293
-  picture:
-  track: true
-  vendor: Sony Mobile Communications AB
-
-marcussiphone:
+marcusaxakoniphone7:
   hide_if_away: false
   icon:
   mac: 70:70:0D:83:8A:99
-  name: Marcus iPhone
+  name: AxakoniPhone7
   picture:
   track: true
   vendor: Apple, Inc.
+  
 
-c83c85439ff2:
-  hide_if_away: false
-  icon:
-  mac: C8:3C:85:43:9F:F2
-  name: c83c85439ff2
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-0028f8abb5e9:
-  hide_if_away: false
-  icon:
-  mac: 00:28:F8:AB:B5:E9
-  name: 0028f8abb5e9
-  picture:
-  track: true
-
-508cb14507ed:
+vacuumrobot_lan:
   hide_if_away: false
   icon:
   mac: 50:8C:B1:45:07:ED
-  name: 508cb14507ed
+  name: VacuumRobot.lan
   picture:
   track: true
 
-784f434d2ad4:
-  hide_if_away: false
-  icon:
-  mac: 78:4F:43:4D:2A:D4
-  name: 784f434d2ad4
-  picture:
-  track: true
-
-2c3361f0a823:
-  hide_if_away: false
-  icon:
-  mac: 2C:33:61:F0:A8:23
-  name: 2c3361f0a823
-  picture:
-  track: true
-
-d0d2b0729c91:
-  hide_if_away: false
-  icon:
-  mac: D0:D2:B0:72:9C:91
-  name: d0d2b0729c91
-  picture:
-  track: true
-
-88e9fe660f08:
+mac_marhan01_lan:
   hide_if_away: false
   icon:
   mac: 88:E9:FE:66:0F:08
-  name: 88e9fe660f08
+  name: MAC-MARHAN01.lan
   picture:
   track: true
 
-94dbc94c39e7:
-  hide_if_away: false
-  icon:
-  mac: 94:DB:C9:4C:39:E7
-  name: 94dbc94c39e7
-  picture:
-  track: true
-
-04d6aa110e48:
-  hide_if_away: false
-  icon:
-  mac: 04:D6:AA:11:0E:48
-  name: 04d6aa110e48
-  picture:
-  track: true
-
-94652da41a1c:
-  hide_if_away: false
-  icon:
-  mac: 94:65:2D:A4:1A:1C
-  name: 94652da41a1c
-  picture:
-  track: true
-
-1c4d700ba748:
-  hide_if_away: false
-  icon:
-  mac: 1C:4D:70:0B:A7:48
-  name: 1c4d700ba748
-  picture:
-  track: true
-
-80b03d35e935:
+linneas_iphone_lan:
   hide_if_away: false
   icon:
   mac: 80:B0:3D:35:E9:35
-  name: 80b03d35e935
+  name: Linneas-iPhone.lan
   picture:
   track: true
 
-88b4a6c76917:
+googlehomebath_lan:
+  hide_if_away: false
+  icon:
+  mac: E4:F0:42:0C:98:A4
+  name: GoogleHomeBath.lan
+  picture:
+  track: true
+
+google_home_lan:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:C9:CC:78
+  name: Google Home.lan
+  picture:
+  track: true
+
+raspberrypi3_lan:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:48:4B:63
+  name: raspberrypi3.lan
+  picture:
+  track: true
+
+cast_bedroom_lan:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:65:43:E8
+  name: Cast bedroom.lan
+  picture:
+  track: true
+
+1c_4d_70_0b_a7_48:
+  hide_if_away: false
+  icon:
+  mac: 1C:4D:70:0B:A7:48
+  name: 1c 4d 70 0b a7 48
+  picture:
+  track: true
+
+04_d6_aa_11_0e_48:
+  hide_if_away: false
+  icon:
+  mac: 04:D6:AA:11:0E:48
+  name: 04 d6 aa 11 0e 48
+  picture:
+  track: true
+
+d0_d2_b0_72_9c_91:
+  hide_if_away: false
+  icon:
+  mac: D0:D2:B0:72:9C:91
+  name: d0 d2 b0 72 9c 91
+  picture:
+  track: true
+
+88_b4_a6_c7_69_17:
   hide_if_away: false
   icon:
   mac: 88:B4:A6:C7:69:17
-  name: 88b4a6c76917
+  name: 88 b4 a6 c7 69 17
   picture:
   track: true
 
-marcuss_iphone:
+00_24_e4_76_72_8e:
   hide_if_away: false
   icon:
-  mac:
-  name: Marcus’s iPhone
+  mac: 00:24:E4:76:72:8E
+  name: 00 24 e4 76 72 8e
   picture:
   track: true
 
-5891cfb61165:
+48_4b_aa_db_b3_8b:
   hide_if_away: false
   icon:
-  mac: 58:91:CF:B6:11:65
-  name: 5891cfb61165
+  mac: 48:4B:AA:DB:B3:8B
+  name: 48 4b aa db b3 8b
   picture:
   track: true
 
-f0_db_f8_a4_8d_67:
+2c_33_61_f0_a8_23:
   hide_if_away: false
   icon:
-  mac: F0:DB:F8:A4:8D:67
-  name: f0 db f8 a4 8d 67
+  mac: 2C:33:61:F0:A8:23
+  name: 2c 33 61 f0 a8 23
+  picture:
+  track: true
+
+e4_b3_18_b1_5d_e6:
+  hide_if_away: false
+  icon:
+  mac: E4:B3:18:B1:5D:E6
+  name: e4 b3 18 b1 5d e6
   picture:
   track: true

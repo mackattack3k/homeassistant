@@ -30,13 +30,13 @@
     - temperature
     - rain
 
-# Uber
-- platform: uber
-  server_token: !secret uber
-  start_latitude: 59.308447
-  start_longitude: 18.082513
-  end_latitude: 59.288056
-  end_longitude: 18.011440
+# Uber - do I need this?
+#- platform: uber
+#  server_token: !secret uber
+#  start_latitude: 59.308447
+#  start_longitude: 18.082513
+#  end_latitude: 59.288056
+#  end_longitude: 18.011440
 
 
 # Linnéas commute
@@ -112,10 +112,10 @@
     door_status:
       friendly_name: "Door status"
       value_template: >-
-          {% if is_state('sensor.door', '0') %}
-            closed
-          {% else %}
+          {% if is_state('sensor.door', '1') %}
             open
+          {% else %}
+            closed
           {% endif %}
 
 - platform: template
@@ -123,10 +123,9 @@
     window_status:
       friendly_name: "Window status"
       value_template: >-
-          {% if is_state('sensor.window', '0') %}
-            closed
-          {% else %}
+          {% if is_state('sensor.window', '1') %}
             open
+          {% else %}
+            closed
           {% endif %}
 
-- platform: huesensor

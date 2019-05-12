@@ -74,9 +74,8 @@ network:
   entities:
     - device_tracker.dietpi
     - device_tracker.huawei_p10
-    - device_tracker.marcussipad
-    - device_tracker.marcussiphone
     - device_tracker.xboxone
+    - device_tracker.marcusaxakoniphone7
 
 weather:
   name: Weather
@@ -114,7 +113,7 @@ people:
   name: People
   view: no
   entities:
-    - device_tracker.marcussiphone
+    - device_tracker.marcusaxakoniphone7
     - device_tracker.huawei_p10
     - input_boolean.guests
 
@@ -122,7 +121,7 @@ residents:
   name: Residents living here
   view: no
   entities:
-    - device_tracker.marcussiphone
+    - device_tracker.marcusaxakoniphone7
     - device_tracker.huawei_p10
 
 vacuum:
